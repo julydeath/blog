@@ -25,8 +25,8 @@ import MEDitor from '@uiw/react-md-editor';
 \`\`\`
 `;
 
-export default function Editor() {
-  const [value, setValue] = useState<string | undefined>(mkdStr);
+export default function Editor({ content }: { content: string }) {
+  const [value, setValue] = useState<string | undefined>(content);
 
   return (
     <div>

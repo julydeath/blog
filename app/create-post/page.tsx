@@ -1,5 +1,4 @@
 import CreatePost from "@/components/create-post";
-import Editor from "@/components/editor";
 
 export default function Page() {
   return (
